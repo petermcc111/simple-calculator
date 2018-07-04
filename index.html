@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+	<title>Math calculator</title>
+	<link rel="shortcut icon" type="source/image/x-icon" href="" />
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' />
+	<link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="resources/css/style.css" />
+</head>
+<body>
+	<header>
+		<h2>Simple calculator</h2>
+		<h4>Well, it's a simple calculator only...</h4>
+	</header>
+	<div id="calculator">
+		<div id="interface">
+			<div id="display"></div>
+			<div id="notice">Invalid formula!</div>
+
+			<div id="key">
+				<div class="func">(</div>
+				<div class="func">)</div>
+				<div class="func">%</div>
+				<div class="func">C</div>
+				<div>7</div>
+				<div>8</div>
+				<div>9</div>
+				<div class="func">+</div>
+				<div>4</div>
+				<div>5</div>
+				<div>6</div>
+				<div class="func">-</div>
+				<div>1</div>
+				<div>2</div>
+				<div>3</div>
+				<div class="func">÷</div>
+				<div>0</div>
+				<div>.</div>
+				<div class="func">=</div>
+				<div class="func">×</div>
+
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div>
+			<a href="https://github.com/petermcc111/simple-calculator/">View on Github</a>
+			 | Peter Chau 2018
+		</div>
+	</footer>
+
+
+	<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+	<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+
+	<script src="resources/js/evaluator.js"></script>
+	<script src="resources/js/storage.js"></script>
+	<script src="resources/js/controller.js"></script>
+	<script src="resources/js/html.js"></script>
+	<script src="resources/js/calculator.js"></script>
+</body>
+</html>
